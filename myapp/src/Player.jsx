@@ -1,6 +1,6 @@
 import React from 'react';
 import Card from "react-bootstrap/Card";
-
+// the Player component
 const Player = ({ name, team, nationality, jerseyNumber, age, imageUrl }) => {
   return (
     <Card style={{ width: "18rem", margin: "20px" }}>
